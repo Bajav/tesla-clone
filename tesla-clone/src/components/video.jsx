@@ -1,7 +1,7 @@
 import React from "react";
 import Modelss from  "../videos/Model-sv.mp4";
 
-const Video = () => {
+const Backgroundvid = () => {
     return (
       <div className="background-video">
         <video autoPlay loop muted>
@@ -11,4 +11,4 @@ const Video = () => {
     );
   };
   
- export default Video;
+ export default Backgroundvid;

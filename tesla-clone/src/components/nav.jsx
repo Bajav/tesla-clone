@@ -2,8 +2,9 @@ import React from "react";
 
 function Nav() {
   return (
-    <header className="nav-items">
+    <div className="nav-bar">
     <p><span>$7500 federal tax credit</span> available certain tesla models . Take delivery by Dec 31 for full $7,500 credit. Reductions likely for certain vehicles in 2024</p>
+    <header className="nav-items">
       <h1>Logo</h1>
       <nav className="nav-links">
         <ul>
@@ -15,6 +16,7 @@ function Nav() {
         </ul>
       </nav>
     </header>
+    </div>
   );
 }
 
