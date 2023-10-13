@@ -1,12 +1,14 @@
-// import React from "react";
+import React from "react";
+import Modelss from  "../videos/Model-sv.mp4";
 
-
-// function Video()
-// {
-//     <div className="background-video">
-//         <video autoPlay loop muted>
-//           <source src={ModelS} type="video/mp4" />
-//         </video>
-//       </div>
-// }
-// export default Video;
+const Video = () => {
+    return (
+      <div className="background-video">
+        <video autoPlay loop muted>
+          <source src={Modelss} type="video/mp4" />
+        </video>
+      </div>
+    );
+  };
+  
+ export default Video;
