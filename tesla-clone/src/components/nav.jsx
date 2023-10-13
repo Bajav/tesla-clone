@@ -7,11 +7,11 @@ function Nav() {
       <h1>Logo</h1>
       <nav className="nav-links">
         <ul>
-          <li><a href="/">vehicle</a></li>
-          <li><a href="/about">energy</a></li>
-          <li><a href="/services">charging</a></li>
-          <li><a href="/contact">dicover</a></li>
-          <li><a href="/contact">shop</a></li>
+          <li><button>vehicle</button></li>
+          <li><button>energy</button></li>
+          <li><button>charging</button></li>
+          <li><button>discover</button></li>
+          <li><button>shop</button></li>
         </ul>
       </nav>
     </header>
