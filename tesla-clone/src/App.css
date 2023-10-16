@@ -1,4 +1,4 @@
-body {
+.icon{background-color: red;}body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -66,3 +66,8 @@ cursor: pointer;
   background: #ffffff76;
   transition: all 3s;
 }
+#TESLA
+{
+  fill:#fff;
+}
+/* 5e5e5e */
