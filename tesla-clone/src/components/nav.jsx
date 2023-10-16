@@ -18,12 +18,12 @@ import User from "./usericon";
           <li><button>discover</button></li>
           <li><button>shop</button></li>
         </ul>
-        <div className="side-icons">
+      </nav>
+      <div className="side-icons">
           <Question />
           <Web />
           <User />
         </div>
-      </nav>
     </header>
     </div>
     );
