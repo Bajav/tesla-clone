@@ -3,16 +3,17 @@ import Heading from "./headings";
 import Video from "./video";
 import Buttons from "./buttons";
 import Footertxt from "./foortertxt";
+import Details from "./pageDeatails";
 
-function Section ()
+const Section =()=>
 {
     return (
         <div className="tesla">
         <section className="model-s">
-            <Heading name ="Model S" price="From $71,090" gas="After Est. Gas Savings"/>
-            <Video />
-            <Buttons />
-            <Footertxt />
+        <Heading name={Details[0].name} price ={Details[0].price} />
+        <Video />
+        <Buttons />
+        <Footertxt text={Details[0].footer}/>
         </section>
         </div>
     );
