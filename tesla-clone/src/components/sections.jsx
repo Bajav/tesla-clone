@@ -5,15 +5,15 @@ import Buttons from "./buttons";
 import Footertxt from "./foortertxt";
 import Details from "./pageDeatails";
 
-const Section =()=>
+const Section =({modelName, modelPrice, gasSavings, showVideo, showFooterText})=>
 {
     return (
         <div className="tesla">
         <section className="model-s">
-        <Heading name={Details[0].name} price ={Details[0].price} />
-        <Video />
+        <Heading name={modelName} price ={`From ${modelPrice}`} gas={`After Est. ${gasSavings} Gas Savings`}/>
+        {showVideo && <Video />}
         <Buttons />
-        <Footertxt text={Details[0].footer}/>
+        {showFooterText && <Footertxt text={Details[0].footer}/>}
         </section>
         </div>
     );
